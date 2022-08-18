@@ -70,6 +70,80 @@ a{
     flex: 1;
 }
 
+.content-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-1 .info-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info-pictures{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pic img{
+    height:200px;
+    width: 200px;
+}
+
+.content-2{
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.content-2 .quote{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.content-2 .quoteby{
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+    text-align: right;
+}
+
+.content-3{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px auto;
+    width: 80%;
+    height: 150px;
+}
+
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.msg-upper{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.content-3 button{
+    background-color: blue;
+    height: 40px;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 60px;
+    color: white;
+}
+
 .footer{
     height: 40px;
     background-color: #1F2937;
